@@ -4,6 +4,7 @@
 
 ## 📌 Overview
 YouTube Watch History Extractor is a Python script that **parses and extracts structured data** from a YouTube `watch-history.html` file. It converts your YouTube watch history into **CSV and JSON formats**, making it easier to analyze trends, track favorite creators, and build datasets for further research.
+![Overview](images/main.png)  
 
 ## 🚀 Features
 - ✅ Extracts **video titles, URLs, channel names, timestamps** from YouTube history.
@@ -54,7 +55,7 @@ Follow these steps to download your **watch-history.html** file from Google:
 1. Scroll down and click **"Next step"**.  
 2. Under "Delivery method," choose **"Download link via email"** (or another preferred option).  
 3. Select **"Export once"** and **".ZIP"** format (recommended).  
-![History](images/takeout_3.png)    
+![Export](images/takeout_3.png)    
 4. Click **"Create Export"**.  
 
 ### **Step 4: Download and Extract Your Data**  

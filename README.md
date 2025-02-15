@@ -1,4 +1,4 @@
-ry-Extractor-Convert-HTML-to-CSV-JSON# YouTube Watch History Extractor: Convert HTML to CSV & JSON
+# YouTube Watch History Extractor: Convert HTML to CSV & JSON
 
 ![Python](https://img.shields.io/badge/Python-3.8%2B-blue) ![BeautifulSoup](https://img.shields.io/badge/BeautifulSoup-HTML%20Parsing-brightgreen) ![License](https://img.shields.io/badge/License-MIT-lightgrey)
 

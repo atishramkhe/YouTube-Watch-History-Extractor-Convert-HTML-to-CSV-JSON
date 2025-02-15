@@ -1,4 +1,4 @@
-# YouTube Watch History Extractor: Convert HTML to CSV & JSON
+ry-Extractor-Convert-HTML-to-CSV-JSON# YouTube Watch History Extractor: Convert HTML to CSV & JSON
 
 ![Python](https://img.shields.io/badge/Python-3.8%2B-blue) ![BeautifulSoup](https://img.shields.io/badge/BeautifulSoup-HTML%20Parsing-brightgreen) ![License](https://img.shields.io/badge/License-MIT-lightgrey)
 
@@ -44,14 +44,17 @@ Follow these steps to download your **watch-history.html** file from Google:
 2. Sign in with your Google account if prompted.  
 
 ### **Step 2: Select Only YouTube History**  
-1. Click **"Deselect all"** to remove all other Google data.  
-2. Scroll down and check **"YouTube and YouTube Music"**.  
-3. Click **"All YouTube data included"**, uncheck everything except **"History"**, then click OK.  
+1. Click **"Deselect all"** to remove all other Google data.
+2. Scroll down and check **"YouTube and YouTube Music"**. 
+![YouTube and YouTube Music](images/takeout_1.png)  
+3. Click **"All YouTube data included"**, uncheck everything except **"History"**, then click OK.
+![History](images/takeout_2.png)    
 
 ### **Step 3: Configure the Export**  
 1. Scroll down and click **"Next step"**.  
 2. Under "Delivery method," choose **"Download link via email"** (or another preferred option).  
 3. Select **"Export once"** and **".ZIP"** format (recommended).  
+![History](images/takeout_3.png)    
 4. Click **"Create Export"**.  
 
 ### **Step 4: Download and Extract Your Data**  

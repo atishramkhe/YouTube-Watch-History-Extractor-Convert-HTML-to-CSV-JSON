@@ -9,7 +9,7 @@ YouTube Watch History Extractor is a Python script that **parses and extracts st
 - ✅ Extracts **video titles, URLs, channel names, timestamps** from YouTube history.
 - ✅ Outputs structured **CSV and JSON files** for easy data manipulation.
 - ✅ Efficient **HTML parsing** with BeautifulSoup.
-- ✅ Handles **large history files** smoothly.
+- ✅ Handles **large history files** smoothly (40MB HTML file ≈ 40 minutes runtime of python script).
 - ✅ Useful for **personal analytics, recommendations, and archiving.**
 
 ## 📂 Example Output
@@ -73,8 +73,8 @@ Follow these steps to download your **watch-history.html** file from Google:
 
 1. **Clone the repository**
    ```sh
-   git clone https://github.com/yourusername/youtube-watch-history-extractor.git
-   cd youtube-watch-history-extractor
+   git clone https://github.com/atishramkhe/YouTube-Watch-History-Extractor-Convert-HTML-to-CSV-JSON
+   cd YouTube-Watch-History-Extractor-Convert-HTML-to-CSV-JSON
    ```
 
 2. **Install dependencies**
@@ -86,12 +86,19 @@ Follow these steps to download your **watch-history.html** file from Google:
 3. **Place your YouTube history file**
    Download your `watch-history.html` from [Google Takeout](https://takeout.google.com/) and move it to the script directory.
 
-## ▶️ Usage
-Run the script to extract and save history data:
-```sh
+### ▶️ Usage  
+
+Make sure that the `watch-history.html` file is in the **same directory** as the Python script. Then, run the script to extract and save history data:  
+
+```bash
 python extract_watch_history.py
-```
-This generates `watched_history.csv` and `watched_history.json`.
+```  
+
+This will generate two output files in the same directory:  
+- `watched_history.csv`  
+- `watched_history.json`  
+
+---
 
 ## 🎯 Potential Use Cases
 - **Data Analysis**: Track watch patterns and preferences.
@@ -109,6 +116,6 @@ Contributions are welcome! Feel free to:
 This project is licensed under the **MIT License**.
 
 ## 📧 Contact
-Created by **[Your Name]**
-- GitHub: [yourusername](https://github.com/yourusername)
-- LinkedIn: [yourprofile](https://linkedin.com/in/yourprofile)
+Created by **Atish K. Ramkhelawon**
+- GitHub: [atishramkhe](https://github.com/atishramkhe)
+- LinkedIn: [Atish K. Ramkhelawon](https://www.linkedin.com/in/atish-ramkhelawon-10a806b8/)

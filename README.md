@@ -33,6 +33,42 @@ YouTube Watch History Extractor is a Python script that **parses and extracts st
 ]
 ```
 
+
+---
+
+## **How to Download Your YouTube Watch History**  
+Follow these steps to download your **watch-history.html** file from Google:  
+
+### **Step 1: Go to Google Takeout**  
+1. Visit [Google Takeout](https://takeout.google.com/).  
+2. Sign in with your Google account if prompted.  
+
+### **Step 2: Select Only YouTube History**  
+1. Click **"Deselect all"** to remove all other Google data.  
+2. Scroll down and check **"YouTube and YouTube Music"**.  
+3. Click **"All YouTube data included"**, uncheck everything except **"History"**, then click OK.  
+
+### **Step 3: Configure the Export**  
+1. Scroll down and click **"Next step"**.  
+2. Under "Delivery method," choose **"Download link via email"** (or another preferred option).  
+3. Select **"Export once"** and **".ZIP"** format (recommended).  
+4. Click **"Create Export"**.  
+
+### **Step 4: Download and Extract Your Data**  
+1. Wait for Google to process your request (it may take minutes to hours).  
+2. Once done, download the ZIP file from the email link.  
+3. Extract the ZIP file to access the folder named **"Takeout"**.  
+
+### **Step 5: Locate Your Watch History File**  
+1. Inside the extracted folder, navigate to:  
+   **`Takeout > YouTube and YouTube Music > history`**  
+2. Look for a file named **`watch-history.html`**.  
+3. Copy this file to the same directory where you'll run this script.  
+
+> ✅ Now you're ready to use the YouTube Watch History Extractor! 🚀  
+
+---
+
 ## 🛠️ Installation
 
 1. **Clone the repository**

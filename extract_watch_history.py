@@ -41,8 +41,8 @@ def main():
 
             # Extract the date and time
             # Data cleaning : Normalize month abbreviation for September
-            date_time_text = div.contents[-1].strip().replace("Sept", "Sep")
-            date_time_obj = datetime.strptime(date_time_text[:-4].strip(), "%d %b %Y, %H:%M:%S")
+            date_time_text = div.contents[-2].strip().replace("Sept", "Sep").replace("\u202f", " ")
+            date_time_obj = datetime.strptime(date_time_text[:-4].strip(), "%b %d, %Y, %I:%M:%S %p")
             date_part = date_time_obj.strftime("%Y-%m-%d")
             time_part = date_time_obj.strftime("%H:%M:%S")
 
